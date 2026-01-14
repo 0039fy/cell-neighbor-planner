@@ -1,0 +1,23 @@
+[general]
+name=邻区规划工具
+qgisMinimumVersion=3.10
+qgisMaximumVersion=4.99
+description=基于QGIS的邻区规划工具 - 支持智能图层选择、方位角覆盖相关度匹配和空间索引加速
+version=3.0.0
+author=叾屾
+email=zhangfuyi_52@foxmail.com
+homepage=
+about=本工具为通信网络工程师提供高效、准确的邻区规划。支持5G/4G混合网络环境，集成方位角智能匹配算法，利用QGIS空间索引加速，大幅提升邻区规划效率和准确率。
+
+
+tags=5G,4G,邻区规划,网络优化,无线通信
+category=Plugins
+deprecated=false
+experimental=false
+hasProcessingProvider=false
+
+icon=icon.png
+
+tracker=
+
+repository=
