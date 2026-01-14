@@ -19,12 +19,14 @@
 
 2. **参数配置**：在“参数配置”选项卡设置规划模式（5G→4G/5G→5G/4G→4G）、距离限制、权重等；
 
-https://github.com/0039fy/cell-neighbor-planner/blob/main/image/2.png?raw=true
+![步骤2：图层配置界面](https://github.com/0039fy/cell-neighbor-planner/blob/main/image/2.png?raw=true)
+
 3. **邻区规划**：在“邻区规划”选项卡输入需要规划邻区的目标小区，支持从剪贴板直接粘贴，点击“开始规划”；
 
+![步骤3：图层配置界面](https://github.com/0039fy/cell-neighbor-planner/blob/main/image/3.png?raw=true)
 
 4. **结果查看**：在“结果展示”选项卡查看规划结果，支持导出CSV或复制数据。
-
+![步骤4：图层配置界面](https://github.com/0039fy/cell-neighbor-planner/blob/main/image/6.png?raw=true)
 
 ## 依赖环境
 - QGIS 3.10及以上版本；
