@@ -14,7 +14,8 @@
 
 ## 使用步骤
 1. **图层配置**：在“图层配置”选项卡选择4G/5G点图层，自动/手动映射字段并保存；
-https://github.com/0039fy/cell-neighbor-planner/blob/main/image/1.png?raw=true
+
+![步骤1：图层配置界面](https://github.com/0039fy/cell-neighbor-planner/blob/main/image/1.png?raw=true)
 
 2. **参数配置**：在“参数配置”选项卡设置规划模式（5G→4G/5G→5G/4G→4G）、距离限制、权重等；
 
