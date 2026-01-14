@@ -19,7 +19,7 @@
 
 2. **参数配置**：在“参数配置”选项卡设置规划模式（5G→4G/5G→5G/4G→4G）、距离限制、权重等；
 
-
+https://github.com/0039fy/cell-neighbor-planner/blob/main/image/2.png?raw=true
 3. **邻区规划**：在“邻区规划”选项卡输入需要规划邻区的目标小区，支持从剪贴板直接粘贴，点击“开始规划”；
 
 
