@@ -2,12 +2,12 @@
 name=邻区规划工具
 qgisMinimumVersion=3.10
 qgisMaximumVersion=4.99
-description=基于QGIS的邻区规划工具 - 支持智能图层选择、方位角覆盖相关度匹配和空间索引加速
+description=4/5G邻区规划工具 - 图层智能选择、方位角覆盖相关度匹配和空间索引加速
 version=3.0.0
 author=叾屾
-email=zhangfuyi_52@foxmail.com
-homepage=
-about=本工具为通信网络工程师提供高效、准确的邻区规划。支持5G/4G混合网络环境，集成方位角智能匹配算法，利用QGIS空间索引加速，大幅提升邻区规划效率和准确率。
+email=zhangfuyi_52@outlook.com
+homepage=https://github.com/0039fy/cell-neighbor-planner
+about=本工具为通信网络工程师提供高效、准确的邻区规划。支持5G/4G混合网络环境，可单独或同时选择两种制式图层，字段自动映射加手动修正方式，便于适配各种复杂字段的工参模板，同时集成方位角智能匹配算法和覆盖相关度计算，利用QGIS空间索引加速，大幅提升邻区规划效率和准确率。
 
 
 tags=5G,4G,邻区规划,网络优化,无线通信
@@ -18,6 +18,7 @@ hasProcessingProvider=false
 
 icon=icon.png
 
-tracker=
+tracker=https://github.com/0039fy/cell-neighbor-planner
 
-repository=
+repository=https://github.com/0039fy/cell-neighbor-planner
+
