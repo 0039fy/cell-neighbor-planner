@@ -1,16 +1,15 @@
 [general]
 name=邻区规划工具
-qgisMinimumVersion=3.10
+qgisMinimumVersion=3.22
 qgisMaximumVersion=4.99
-description=4/5G邻区规划工具 - 图层智能选择、方位角覆盖相关度匹配和空间索引加速
-version=3.0.0
+description=A 4G/5G neighbor planning plugin with field mapping, azimuth scoring, spatial index, and QGIS 3.x/4.x support.（4G/5G 邻区规划插件，支持字段映射、方位角评分、空间索引，兼容 QGIS 3.x+ 与 4.x）
+version=3.1.0
 author=叾屾
 email=zhangfuyi_52@outlook.com
 homepage=https://github.com/0039fy/cell-neighbor-planner
-about=本工具为通信网络工程师提供高效、准确的邻区规划。支持5G/4G混合网络环境，可单独或同时选择两种制式图层，字段自动映射加手动修正方式，便于适配各种复杂字段的工参模板，同时集成方位角智能匹配算法和覆盖相关度计算，利用QGIS空间索引加速，大幅提升邻区规划效率和准确率。
+about=This plugin provides three planning modes (5G→4G, 5G→5G, 4G→4G), dual‑metric scoring based on distance and azimuth with separate thresholds for macro and indoor cells, spatial‑index‑accelerated candidate filtering, and flexible field mapping for vendor‑specific data. Now compatible with QGIS 3.x and 4.x.（本插件提供三种规划模式：5G→4G、5G→5G、4G→4G；基于距离与方位角的双维度评分，并为宏站与室分设置不同阈值；利用空间索引加速候选小区筛选；支持灵活的字段映射以适配不同厂商的数据。现已兼容 QGIS 3.x 和 4.x。）
 
-
-tags=5G,4G,邻区规划,网络优化,无线通信
+tags=5G,4G,邻区规划,网络优化,无线通信,NR,LTE
 category=Plugins
 deprecated=false
 experimental=false
@@ -19,6 +18,4 @@ hasProcessingProvider=false
 icon=icon.png
 
 tracker=https://github.com/0039fy/cell-neighbor-planner
-
 repository=https://github.com/0039fy/cell-neighbor-planner
-
